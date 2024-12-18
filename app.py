@@ -1,0 +1,17 @@
+import streamlit as st
+
+st.title('Mi Primera Aplicación en Streamlit')
+st.title('Carlos Bazurto')
+st.title("controles")
+st.number_input("ingrese su edad", 0,100)
+st.text_input("ingrese nombres y apellidos")
+st.slider("seleccionar mes del año",1,12)
+st.checkbox("acepta terminos y condiciones")
+st.radio("genero",["M","F"])
+st.radio("genero",["Ecuador","Peru","Colombia","Brasil","Argentina","Chile","Uruguay","Paraguay"])
+st.button("enviar")
+st.file_uploader("cargar archivo")
+st.date_input("selecciona la fecha")
+st.time_input("selecciona la hora")
+st.sidebar.title("Carlos Bazurto")
+st.sidebar.file_uploader("enviar")
